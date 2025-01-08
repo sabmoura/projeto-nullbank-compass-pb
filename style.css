@@ -54,25 +54,23 @@ img {
 }
 
 /* TOP HEADER */
-body > header {
+.navbar {
     position: sticky;
+    border-bottom: 1px solid var(--slate-200);
 }
 
-body > header hr {
-    border: 1px solid var(--slate-200);
-}
-
-body > header nav {
+.navbar nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 36px;
-    line-height: 36px;
-    margin: 20px 64px 12px 64px;
+    height: 2rem;
+    line-height: 2rem;
+    margin: 1rem 4rem;
 }
 
-body > header ul li {
+.navbar ul li {
     float: inline-start;
+    font-weight: 500;
     height: inherit;
     line-height: inherit;
     padding: 0 1rem;
@@ -82,19 +80,21 @@ body > header ul li {
     color: var(--primary-500);
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
 .navbar__user button {
     border: transparent;
     background-color: var(--primary-500);
-    border-radius: 7px;
+    border-radius: 0.5rem;
     color: var(--white);
     font-family: inherit;
     font-size: inherit;
-    height: 36px; 
-    width: 144px;
+    font-weight: inherit;
+    height: 2.2rem;
+    padding: inherit; 
+    width: 8rem;
 }
 
 .navbar__user button:hover {
@@ -140,7 +140,6 @@ body > header ul li {
         padding-left: 1rem;
         transition: 0.5s;
     }
-
 }
 
 .hero__left button{
@@ -225,5 +224,13 @@ body > header ul li {
     padding: 2px 2px;
     width: 40px; */
 }
+
+/* CARTÕES */
+
+/* APP */
+
+/* DOWNLOAD */
+
+/* CTA */
 
 /* FOOTER */

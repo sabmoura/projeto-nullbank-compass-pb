@@ -7,8 +7,8 @@
 
 ### hero
 - [x] skelleton
-- [ ] add classes and ids to html
-- [ ] add style
+- [\] add classes and ids to html
+- [\] add style
 
 ### cartões
 - [ ] skelleton
