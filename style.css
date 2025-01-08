@@ -1,4 +1,80 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* RESET */
 * {
     margin: 0;
     padding: 0;
 }
+
+/* TOP HEADER */
+hr.top__header {
+    border: 1px solid #E2E8F0;
+}
+
+nav.top__header {
+    display: inline-flexbox;
+    flex-flow: row;
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    height: 44px;
+    line-height: 44px;
+    margin: 20px 80px 12px 80px;
+    position: sticky;
+}
+
+nav.top__header ul {
+    list-style-type: none;
+}
+
+nav.top__header ul li {
+    float: inline-start;
+    height: 44px;
+    line-height: 44px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+nav.top__header div.nav__logo {
+    color: #6729FF;
+    float: inline-start;
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav.top__header div.nav__user {
+    align-self: right;
+}
+
+nav.top__header div.nav__menu {
+    width: 50%;
+}
+
+nav.top__header div.nav__user button {
+    border: #FFFFFF;
+    background-color: #6729FF;
+    border-radius: 7px;
+    color: #FFFFFF;
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    height: 44px;
+    width: 144px;
+}
+
+nav.top__header div.nav__user button:hover {
+    background-color: #94A3B8;
+    color: #6729FF;
+}
+
+nav.top__header a:link, a:visited {
+    text-decoration: none;
+    color:#94A3B8;
+}
+
+nav.top__header a:hover, a:active {
+    text-decoration: none;
+    color: #6729FF;
+}
+
