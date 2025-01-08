@@ -3,6 +3,7 @@
 ### header
 - [x] flex container
 - [x] flex items (3)
+- [ ] navbar fix on top
 - [ ] navbar__menu--active
 
 ### hero
