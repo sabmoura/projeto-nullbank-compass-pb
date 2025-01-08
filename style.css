@@ -12,75 +12,94 @@ a {
     text-decoration: none;
 }
 
-img {
-    display: flex;
-    width: 100%;
-}
-
 ul {
     list-style: none;
 }
 
 /* BASICS */
+:root {
+    --white: #FFFFFF;
+    --primary-500: #6729FF;
+    --primary-200: #EEE5FF;
+    --primary-100: #F3F2FF;
+    --slate-600: #475569;
+    --slate-500: #64748B;
+    --slate-400: #94A3B8;
+    --slate-200: #E2E8F0;
+    --slate-50: #F8FAFC;
+}
+
 body {
-    background-color: #FFFFFF;
-    color: #94A3B8;
+    background-color: var(--white);
+    color: var(--slate-400);
     font-family: "Poppins", sans-serif;
     font-size: 16px;
 }
 
 a:link, a:visited {
-    color:#94A3B8;
+    color: inherit;
 }
 
 a:hover, a:active {
-    color: #6729FF;
+    color: var(--primary-500);
+    transition: 0.3s;
+}
+
+img {
+    display: flex;
+    width: 100%;
 }
 
 /* TOP HEADER */
-body header hr {
-    border: 1px solid #E2E8F0;
+body > header {
+    position: sticky;
 }
 
-body header nav {
+body > header hr {
+    border: 1px solid var(--slate-200);
+}
+
+body > header nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     height: 36px;
     line-height: 36px;
     margin: 20px 64px 12px 64px;
-    position: sticky;
 }
 
-body header nav ul li {
+body > header ul li {
     float: inline-start;
     height: inherit;
     line-height: inherit;
     padding: 0px 16px;
 }
 
-body header div.nav__logo {
-    color: #6729FF;
+.navbar__logo {
+    color: var(--primary-500);
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
     font-size: 24px;
     font-weight: bold;
 }
 
-body header div.nav__user button {
+.navbar__user button {
     border: transparent;
-    background-color: #6729FF;
+    background-color: var(--primary-500);
     border-radius: 7px;
-    color: #FFFFFF;
+    color: var(--white);
     font-family: inherit;
     font-size: inherit;
     height: 36px; 
     width: 144px;
 }
 
-body header div.nav__user button:hover {
-    background-color: #94A3B8;
-    color: #6729FF;
+.navbar__user button:hover {
+    background-color: var(--slate-400);
+    color: var(--primary-500);
 }
 
+/* MAIN */
 
+
+/* FOOTER */
