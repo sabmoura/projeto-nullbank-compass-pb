@@ -107,24 +107,37 @@ img {
 }
 
 /* MAIN */
+main {
+    margin-top: 4rem;
+}
+
 /* HERO */
 .hero {
     display: flex;
     flex-direction: row;
+    min-height: fit-content;
+    max-height: 45rem;
+
+    background-color: var(--primary-500);
+    background-image: url(/assets/images/hero-banner.svg);
+    background-position: 85% 115%;
+    background-repeat: no-repeat;
+    background-size: 24rem 38rem;
 }
 
+/* HERO LIGHT SIDE ITEMS */
 .hero__left {
-    
+    background-color: var(--white);
+    padding: 6rem 10rem 1rem 6rem;
     max-height: fit-content;
 }
 
 .hero__left header {
     align-content: center;
-    padding: 4rem 6rem;
     border-bottom: 1px solid var(--slate-200);
     display: flex;
     flex-direction: column;
-    max-width: 36rem;
+    max-width: 40rem;
 }
 
 .hero__left h2 {
@@ -132,18 +145,25 @@ img {
     font-family: "Outfit", serif;
     font-size: 4rem;
     font-weight: 600;
+    max-width: 35rem;
     padding-bottom: 1.5rem;
 }
 
 .hero__left p{
     color: var(--slate-500);
     width: 30rem;
-    padding-bottom: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.hero__left nav {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: row;
+    padding: 0 0 2rem 0;
+    max-width: fit-content;
 }
 
 .hero__left a{
-    display: inline-flex;
-    flex-direction: row;
     font-weight: 600;
         
     &:not(:first-child) {
@@ -169,11 +189,10 @@ img {
 }
 
 .hero__left__users {
-    border-top: 1px solid var(--slate-200);
     display: flex;
     flex-direction: column;
-    padding-top: 1.5rem;
-    padding-left: 7rem;    
+    padding-top: 2rem;
+    padding-left: 1rem;    
 }
 
 .hero .users__figures {
@@ -221,18 +240,45 @@ img {
     margin-left: -1rem;
 }
 
-/* HERO BANNER */
+/* HERO COLOR SIDE ITEMS */
 
-/* .hero__right {
-    display: inline-flex;
-    background-color: var(--primary-500);
-    background-size: contain;
-    align-self: flex-end;
+.hero__right__boxes {
+    background-color: none;
+    background-size: 42rem 26rem;
+    background-position: 50% 50%;
+    
+    display: flexbox;
+    flex-direction: column;
 }
 
-.hero__right img {
-    width: 24rem;
+
+
+.hero__right__boxes div {
+    background-color: var(--white);
+    display: inline-flex;
+    height: 3rem;
+    margin-top: 5.5rem;
+}
+
+.hero__right__boxes img {
+    background-color: var(--primary-200);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    max-width: 2.5rem;
+}
+
+/*
+#heroBox1 {
+    
+}
+#heroBox2 {
+
+}
+#heroBox3 {
+    
 } */
+
+/* ------ */
 
 /* CARTÕES */
 
