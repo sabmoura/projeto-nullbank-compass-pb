@@ -8,6 +8,19 @@
     margin: 1rem 4rem;
 }
 
+#navbar-menu-list {
+    display: flex;
+    gap: 2.5rem;
+}
+
+#navbar-btn-signup {
+    width: 11rem;
+}
+
+#navbar-btn-login {
+    width: 9rem;
+}
+
 .navbar__container {
     background-color: var(--white);
     border-bottom: 1px solid var(--slate-200);
@@ -31,19 +44,6 @@
     justify-content: space-between;
 }
 
-#navbar-list {
-    display: flex;
-    gap: 2.5rem;
-}
-
-#navbar-signup {
-    width: 11rem;
-
-}
-
-#navbar-login {
-    width: 9rem;
-}
 .navbar__link--active > a {
     color: unset;
     color: var(--primary-500);
