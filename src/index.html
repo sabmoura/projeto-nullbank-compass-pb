@@ -1,36 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Acreditamos que suas finanças podem ser tão simples quanto você deseja. Conheça nossas soluções inovadoras.">
-    <link rel="stylesheet" type="text/css" href="/style.css">
-    <script src="/main.js"></script>
-    <title>NullBank</title>    
+    <link rel="stylesheet" type="text/css" href="/src/styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="/src/styles/header.css">
+    <title>NullBank</title>
+    <meta name="description" content="Acreditamos que suas finanças podem ser tão simples quanto você deseja. Conheça nossas soluções inovadoras.">    
 </head>
 <body>
     <header>
-        <div class="navbar">
-            <nav>
+        <div class="navbar__container">
+            <nav id="navbar">
                 <div class="navbar__logo">
-                    <span class="navbar__logo">NullBank</span>
+                    <span>NullBank</span>
                 </div>
                 <div class="navbar__menu">
-                    <ul class="navbar__menu">
-                        <li><a href="/home">Início</a></li>
-                        <li><a href="/para-voce">Para você</a></li>
-                        <li><a href="/servicos">Serviços</a></li>
-                        <li><a href="/contato">Contato</a></li>
+                    <ul id="navbar-list">
+                        <li class="navbar__link">
+                            <a href="#home" type="_self">Início</a>
+                        </li>
+                        <li class="navbar__link">
+                            <a href="#" type="_blank">Para você</a>
+                        </li>
+                        <li class="navbar__link">
+                            <a href="#" type="_blank">Serviços</a>
+                        </li>
+                        <li class="navbar__link">
+                            <a href="#" type="_self">Contato</a>
+                        </li>
                     </ul>
                 </div>
-                <div class="navbar__user">
-                    <ul class="navbar__user">
-                        <li><a href="/signin">Cadastrar-se</a></li>
-                        <li><a href="/login"><button>Fazer login</button></a></li>
-                    </ul>
-                </div>    
+                <div class="navbar__buttons">
+                    <button class="button button--white" id="navbar-signup" href="#" type="_blank">
+                        Cadastrar-se
+                    </button>
+                    <button class="button button--color" id="navbar-login" href="#" type="_blank">
+                        Fazer login
+                    </button>
+                </div>
             </nav>
         </div>
+        <script src="/src/javascript/script.js"></script>
     </header>
     <main>
         <section>
@@ -61,7 +72,7 @@
                 </div>
                 <div class="hero__right">
                     <div class="hero__right__boxes">
-                        <div id="heroRightBox1">
+                     <!--   <div id="heroRightBox1">
                             <figure><img src="assets/icons/hero-icon-1.svg"></figure>
                             <p>Sem taxas absurdas</p>
                         </div>
@@ -73,15 +84,11 @@
                             <figure><img src="assets/icons/hero-icon-3.svg"></figure>
                             <p>100% pensando em você</p>
                         </div>
+                        -->
                     </div>
                 </div>
             </div> 
         </section>
     </main>
-</body>
-</html>
-    
-
-
 </body>
 </html>

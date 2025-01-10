@@ -1,0 +1,63 @@
+#navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 2rem;
+    height: 2rem;
+    margin: 1rem 4rem;
+}
+
+.navbar__container {
+    background-color: var(--white);
+    border-bottom: 1px solid var(--slate-200);
+    min-width: 100vw;
+    position: fixed;
+    top: 0;
+}
+
+.navbar__logo {
+    color: var(--primary-500);
+    font-family: "Outfit", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.navbar__menu {
+    font-weight: 500;
+}
+
+.navbar__buttons {
+    justify-content: space-between;
+}
+
+#navbar-list {
+    display: flex;
+    gap: 2.5rem;
+}
+
+#navbar-signup {
+    width: 11rem;
+
+}
+
+#navbar-login {
+    width: 9rem;
+}
+.navbar__link--active > a {
+    color: unset;
+    color: var(--primary-500);
+}
+
+.navbar__link > a {
+    &:link {
+        color: var(--slate-400);
+    }
+    &:visited {
+        color: var(--slate-400);
+    }
+    &:hover {
+        color: var(--primary-500);
+    }
+}
+
