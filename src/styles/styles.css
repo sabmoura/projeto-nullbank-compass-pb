@@ -44,14 +44,14 @@ main {
     margin-top: 4rem;
 }
 
-/* a:link, a:visited {
+a:link, a:visited {
     color: var(--slate-400);
 }
 
 a:hover, a:active {
     color: var(--primary-500);
     transition: 0.3s;
-} */
+}
  
 
 img {
