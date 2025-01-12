@@ -53,6 +53,17 @@ a:hover, a:active {
     transition: 0.3s;
 }
  
+input {
+    border: none;
+
+    &:hover {
+        border: none;
+    }
+
+    &:focus {
+        border: none;
+    }
+}
 
 img {
     display: flex;
@@ -99,6 +110,14 @@ img {
     }
 }
 
+.button__icon {
+    background: transparent;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 2.5rem;
+    width: 2.5rem;
+    padding: 0.5rem;
+}
 
 /* MAIN */
 

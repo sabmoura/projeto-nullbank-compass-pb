@@ -3,43 +3,50 @@
 ### header
 - [x] flex container
 - [x] flex items (3)
-- [ ] navbar fix on top
+- [x] navbar fix on top
 - [ ] navbar__menu--active
+- [ ] add script
 
 ### hero
 - [x] skelleton
-- [\] add classes and ids to html
-- [\] add style
+- [x] add classes and ids to html
+- [x] add style
+- [ ] add styled images
+- [ ] add script
 
 ### cartões
 - [ ] skelleton
 - [ ] add classes and ids to html
 - [ ] add style
+- [ ] add script
 
 ### app
 - [ ] skelleton
 - [ ] add classes and ids to html
+- [ ] add script
 
 ### download
 - [ ] skelleton
 - [ ] add classes and ids to html
 - [ ] add style
+- [ ] add script
 
 ### cta
 - [ ] skelleton
 - [ ] add classes and ids to html
 - [ ] add style
+- [ ] add script
 
 ### footer
-- [ ] skelleton
-- [ ] add classes and ids to html
-- [ ] add style
+- [x] skelleton
+- [x] add classes and ids to html
+- [x] add style
+- [ ] add forms
+- [ ] add script
 
 ## 2. CONTATO
 ### header
-- [ ] skelleton
-- [ ] add classes and ids to html
-- [ ] add style 
+- [ ] import from homepage
 
 ### hero
 - [ ] skelleton
@@ -50,13 +57,10 @@
 - [ ] skelleton
 - [ ] add classes and ids to html
 - [ ] add style
+- [ ] add script
 
 ### cta
-- [ ] skelleton
-- [ ] add classes and ids to html
-- [ ] add style
+- [ ] import from homepage
 
 ### footer
-- [ ] skelleton
-- [ ] add classes and ids to html
-- [ ] add style
+- [ ] import from homepage
