@@ -26,15 +26,15 @@
 - [ ] add script
 
 ### download
-- [ ] skelleton
-- [ ] add classes and ids to html
+- [x] skelleton
+- [x] add classes and ids to html
 - [ ] add style
 - [ ] add script
 
 ### cta
-- [ ] skelleton
-- [ ] add classes and ids to html
-- [ ] add style
+- [x] skelleton
+- [x] add classes and ids to html
+- [x] add style
 - [ ] add script
 
 ### footer
