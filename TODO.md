@@ -28,7 +28,8 @@
 ### download
 - [x] skelleton
 - [x] add classes and ids to html
-- [ ] add style
+- [x] add style
+- [ ] fix bg images
 - [ ] add script
 
 ### cta
@@ -41,7 +42,8 @@
 - [x] skelleton
 - [x] add classes and ids to html
 - [x] add style
-- [ ] add forms
+- [x] add form
+- [ ] fix input and submit
 - [ ] add script
 
 ## 2. CONTATO
@@ -49,13 +51,13 @@
 - [ ] import from homepage
 
 ### hero
-- [ ] skelleton
-- [ ] add classes and ids to html
+- [x] skelleton
+- [x] add classes and ids to html
 - [ ] add style
 
 ### contatos
-- [ ] skelleton
-- [ ] add classes and ids to html
+- [x] skelleton
+- [x] add classes and ids to html
 - [ ] add style
 - [ ] add script
 
