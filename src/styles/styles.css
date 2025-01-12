@@ -302,4 +302,46 @@ img {
 
 /* CTA */
 
+.criarconta__container {
+    background-image: url(/src/assets/images/cta-banner.svg);
+    background-size: 100vw;
+    height: 31rem;
+
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-items:center;
+}
+
+.criarconta__content {
+    display: flex;
+    flex-direction: column;
+    padding: 3% 25%;
+}
+
+.criarconta__content > h1 {
+    color: var(--white);
+    font-family: "Outfit", sans-serif;
+    font-size: 6rem;
+    font-weight: 600;
+    text-align: center;
+    flex-shrink: unset;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    
+}
+
+.criarconta__content > button {
+    text-align: center;
+    line-height: 2rem;
+    padding: unset;
+}
+
+.criarconta__buttonbox {
+    display: flex;
+    flex-direction: row;
+    margin: 0 35%;
+    padding: 0 5%;
+}
+
 /* FOOTER */
