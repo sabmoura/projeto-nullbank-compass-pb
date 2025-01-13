@@ -4,9 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/src/styles/styles.css">
-    <link rel="stylesheet" type="text/css" href="/src/styles/header.css">
-    <link rel="stylesheet" type="text/css" href="/src/styles/footer.css">
-    <link rel="stylesheet" type="text/css" href="/src/styles/contact.css">
     <title>NullBank</title>
     <meta name="description" content="Acreditamos que suas finanças podem ser tão simples quanto você deseja. Conheça nossas soluções inovadoras.">    
 </head>
@@ -20,7 +17,7 @@
                 <div class="navbar__menu">
                     <ul id="navbar-menu-list">
                         <li class="navbar__link">
-                            <a href="#home" type="_self">Início</a>
+                            <a href="#" type="_self">Início</a>
                         </li>
                         <li class="navbar__link">
                             <a href="#" type="_blank">Para você</a>
@@ -28,7 +25,7 @@
                         <li class="navbar__link">
                             <a href="#" type="_blank">Serviços</a>
                         </li>
-                        <li class="navbar__link">
+                        <li class="navbar__link navbar__link--active">
                             <a href="#" type="_self">Contato</a>
                         </li>
                     </ul>
@@ -60,32 +57,40 @@
             <div class="contact__content">
                 <div class="content__phone">
                     <div class="content__title">
-                        <img src="/src/assets/icons/contact-icon-1.svg" alt="phone-icon">
-                        <h3>
-                            Telefone
-                        </h3>
-                        <p>
-                            Precisa falar com a gente? Ligue para os nossos números:
-                        </p>
+                        <div class="content__title__icon" id="phone-title-icon">
+                            <img src="/src/assets/icons/contact-icon-1.svg" alt="phone-icon">
+                        </div>
+                        <div class="content__title__text" id="phone-title-text">
+                            <h3>
+                                Telefone
+                            </h3>
+                            
+                            <p>
+                                Precisa falar com a gente? Ligue para os nossos números:
+                            </p>
+                        </div>
                     </div>
                     <div class="content__phone__numbers">
                         <p>
-                            9999 8888 (capitais e regiões metropolitanas)
-                        </p>
-                        <p>
-                            0800 543 2110 (demais localidades)
+                            <em>9999 8888</em> (capitais e regiões metropolitanas)
+                        <br>
+                            <em>0800 543 2110</em> (demais localidades)
                         </p>
                     </div>
                 </div>
                 <div class="content__socials">
                     <div class="content__title">
-                        <img src="/src/assets/icons/contact-icon-2.svg" alt="at-icon">
-                        <h3>
-
-                        </h3>
-                        <p>
-                            Conecte-se em nossas redes sociais e acompanhe as novidades:
-                        </p>
+                        <div class="content__title__icon" id="socials-title-icon">
+                            <img src="/src/assets/icons/contact-icon-2.svg" alt="at-icon">
+                        </div>
+                        <div class="content__title__text" id="socials-title-text">
+                            <h3>
+                                Redes sociais
+                            </h3>
+                            <p>
+                                Conecte-se em nossas redes sociais e acompanhe as novidades:
+                            </p>
+                        </div>
                     </div>
                     <div class="content__socials__buttons">
                         <button class="button button--icon" id="btn-facebook" href="#">
@@ -104,20 +109,68 @@
                 </div>
                 <div class="content__message">
                     <div class="content__title">
-                        <img src="/src/assets/icons/contact-icon-3.svg" alt="message-icon">
-                        <h3>
-                            Fale conosco
-                        </h3>
-                        <p>
-                            Prefere enviar uma mensagem? Preencha o formulário abaixo e retornaremos o mais rápido possível.
-                        </p>
+                        <div class="content__title__icon" id="message-title-icon">
+                            <img class="content__title__icon" src="/src/assets/icons/contact-icon-3.svg" alt="message-icon">
+                        </div>
+                        <div class="content__title__text" id="message-title-text">
+                            <h3>
+                                Fale conosco
+                            </h3>
+                            <p>
+                                Prefere enviar uma mensagem?
+                            </p>
+                            <p>
+                                Preencha o formulário abaixo e retornaremos o mais rápido possível.
+                            </p>
+                        </div>
                     </div>
                     <div class="content__message__form">
-                        <form>
-                            <input type="text" name="first-name">
-                            <input type="text" name="last-name">
-                            <input type="email" name="email">
-                            <input type="text" name="message">
+                        <form id="content-message-form">
+                            
+                            <div class="message__form__row" id="form-row-fullname">
+                                <div class="message__form__label" id="form-label-first-name">
+                                    <label for="first-name">
+                                        Nome
+                                    </label>
+                                </div>
+                                <div class="message__form__label" id="form-label-last-name">
+                                    <label for="last-name">
+                                        Sobrenome
+                                    </label>
+                                </div>
+                                <div class="message__form__input" id="form-input-first-name">
+                                    <input type="text" name="first-name" placeholder="Nullito" required>
+                                </div>
+                                <div class="message__form__input" id="form-input-last-name">
+                                    <input type="text" name="last-name" placeholder="Da Silva" required>
+                                </div>
+                            </div>
+                            <div class="message__form__row" id="form-row-email">
+                                <div class="message__form__label" id="form-label-email">
+                                    <label for="email">
+                                        Email
+                                    </label>
+                                </div>
+                                <div class="message__form__input" id="form-input-email">
+                                    <input type="email" name="email" placeholder="exemplo@email.com" required>
+                                </div>
+                            </div>
+                            <div class="message__form__row" id="form-row-text">
+                                <div class="message__form__label" id="form-label-text">
+                                    <label for="message">
+                                        Mensagem
+                                    </label>
+                                </div>
+                                <div class="message__form__input" id="form-input-text">
+                                    <input type="text" name="message" placeholder="Sua mensagem aqui" required>
+                                </div>
+                            </div>
+                            <div id="form-btn-submit">
+                                <button class="button button--color" type="submit" id="btn-submit" href="#">
+                                    Enviar mensagem
+                                    <img src="/src/assets/icons/contact-icon-4.svg" alt="send-icon">
+                                </button>
+                            </div>
                         </form>
                     </div>
                 </div>

@@ -1,4 +1,6 @@
-section#contact-hero {
+/* CONTACT PAGE - HERO */
+
+#contact-hero {
     background-color: var(--primary-500);
     height: 21rem;
     display: flex;
@@ -31,17 +33,195 @@ section#contact-hero {
     max-width: 45%;
 }
 
+/* CONTACT PAGE - CONTENT */
+
 .contact__content {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width:  100vw;
+}
 
+.content__title {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    max-height: 6rem;
+    width:30vw;
+}
+
+.content__title__icon {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.content__title__text {
+    height: 5rem;
+    width: 28rem;
+    padding-left: 1rem;
+}
+
+.content__title__text > h3 {
+    color: var(--slate-600);
+    font-family: "Outfit", sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.content__title__text > p {
+    color: var(--slate-500);
+    font-size: 0.8rem;
 }
 
 
+
+/* CONTACT PAGE - CONTENT - PHONE */
 .content__phone {
+    border-bottom: 1px solid var(--slate-200);
+    height: 12rem;
+    width: 70%;
 
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.content__phone__numbers {
+    height: 5rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    width:35vw;
 
 }
 
-.content__numbers {
+.content__phone__numbers > p > em {
+    font-style: normal;
+    color: var(--slate-600);
+}
+
+/* CONTACT PAGE - CONTENT - SOCIALS */
+
+.content__socials {
+    border-bottom: 1px solid var(--slate-200);
+    height: 9rem;
+    width: 70%;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content__socials__buttons {
+    height: 5rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    width:35vw;
+
+}
 
 
+/* CONTACT PAGE - CONTENT - MESSAGE */
+
+.content__message {
+    margin-top: 2rem;
+    height: 32rem;
+    width: 70%;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    
+}
+
+#message-title-text > p {
+    max-width: 15rem;
+}
+
+
+/* CONTACT PAGE - CONTENT - MESSAGE FORM */
+
+.content__message__form {
+    display: flex;
+    justify-content: space-around;
+    height: 48rem;
+    width: 48rem;
+}
+
+.message__form__row {  
+    &:not(:last-of-type) {
+        max-height: 4rem;
+    }
+}
+
+#form-row-fullname {
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+#form-row-fullname .message__form__label {
+    width: 50%;
+}
+
+#form-row-fullname .message__form__input {
+    width: 50%;
+}
+.message__form__label {
+    margin-top: 1rem;
+}
+
+.message__form__label > label {
+    color: var(--slate-500);
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+}
+
+.message__form__input {
+    border: 1px solid var(--slate-200);
+    border-radius: 8px;
+    height: 2.2rem;
+    text-indent: 0.5rem;
+}
+
+#form-input-first-name {
+    width: 45%;
+}
+
+#form-input-last-name {
+    width: 45%;
+}
+
+#form-input-text {
+    height: 16rem;
+}
+
+/* #form-input-text {
+    height: 14rem;
+    width: 35rem;
+} */
+
+#form-btn-submit {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15rem;
+}
+#btn-submit {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
+
+#btn-submit > img {
+    margin-left: 0.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
 }
