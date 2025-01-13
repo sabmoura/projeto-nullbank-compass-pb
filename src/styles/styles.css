@@ -57,14 +57,6 @@ a:hover, a:active {
  
 input {
     border: none;
-
-    &:hover {
-        border: none;
-    }
-
-    &:focus {
-        border: none;
-    }
 }
 
 /* IMAGES */
@@ -128,8 +120,6 @@ ul {
     width: 2.5rem;
     padding: 0.5rem;
 }
-
-
 
 /* MAIN */
 
@@ -435,4 +425,42 @@ download__content__text {
     padding: 0 2rem;
 }
 
-/* FOOTER */
+/* PAGE NOT FOUND */
+
+#notfound-hero {
+    height: 21rem;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.notfound__hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width:65%;
+    margin: 2rem 4rem;
+    padding: 3.5rem 3rem;
+}
+
+.notfound__hero > h2 {
+    color: var(--slate-400);
+    font-family: "Outfit", sans-serif;
+    font-size: 4rem;
+    font-weight: 600;
+    
+}
+
+.notfound__hero > p {
+    color: var(--slate-500);
+    font: inherit;
+    font-weight: 400;
+    max-width: 45%;
+}
+
+#not-found-background {
+    background-image: url(/src/assets/images/cta-banner.svg);
+    width: 100vw;
+    height: 18rem;
+}

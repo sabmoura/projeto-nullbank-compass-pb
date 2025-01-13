@@ -79,9 +79,6 @@ footer {
     border: none;
     font-size: 0.8rem;
 
-    &:focus {
-        border: none;
-    }
 }
 
 #btn-newsletter {
